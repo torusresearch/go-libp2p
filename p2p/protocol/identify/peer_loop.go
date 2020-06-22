@@ -13,7 +13,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/protocol"
 	"github.com/libp2p/go-libp2p-core/record"
 
-	pb "github.com/libp2p/go-libp2p/p2p/protocol/identify/pb"
+	pb "github.com/torusresearch/go-libp2p/p2p/protocol/identify/pb"
 
 	ggio "github.com/gogo/protobuf/io"
 	ma "github.com/multiformats/go-multiaddr"

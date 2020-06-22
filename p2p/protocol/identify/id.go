@@ -18,7 +18,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/record"
 
 	"github.com/libp2p/go-eventbus"
-	pb "github.com/libp2p/go-libp2p/p2p/protocol/identify/pb"
+	pb "github.com/torusresearch/go-libp2p/p2p/protocol/identify/pb"
 
 	ggio "github.com/gogo/protobuf/io"
 	"github.com/gogo/protobuf/proto"
@@ -43,7 +43,7 @@ const LibP2PVersion = "ipfs/0.1.0"
 // ClientVersion is the default user agent.
 //
 // Deprecated: Set this with the UserAgent option.
-var ClientVersion = "github.com/libp2p/go-libp2p"
+var ClientVersion = "github.com/torusresearch/go-libp2p"
 
 var (
 	legacyIDSize = 2 * 1024 // 2k Bytes

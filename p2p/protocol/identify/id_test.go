@@ -21,13 +21,13 @@ import (
 	coretest "github.com/libp2p/go-libp2p-core/test"
 
 	"github.com/libp2p/go-eventbus"
-	libp2p "github.com/libp2p/go-libp2p"
 	blhost "github.com/libp2p/go-libp2p-blankhost"
 	"github.com/libp2p/go-libp2p-peerstore/pstoremem"
 	swarmt "github.com/libp2p/go-libp2p-swarm/testing"
-	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
-	"github.com/libp2p/go-libp2p/p2p/protocol/identify"
-	pb "github.com/libp2p/go-libp2p/p2p/protocol/identify/pb"
+	libp2p "github.com/torusresearch/go-libp2p"
+	mocknet "github.com/torusresearch/go-libp2p/p2p/net/mock"
+	"github.com/torusresearch/go-libp2p/p2p/protocol/identify"
+	pb "github.com/torusresearch/go-libp2p/p2p/protocol/identify/pb"
 
 	ggio "github.com/gogo/protobuf/io"
 	ma "github.com/multiformats/go-multiaddr"

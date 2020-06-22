@@ -21,7 +21,7 @@ import (
 
 	"github.com/libp2p/go-eventbus"
 	swarmt "github.com/libp2p/go-libp2p-swarm/testing"
-	"github.com/libp2p/go-libp2p/p2p/protocol/identify"
+	"github.com/torusresearch/go-libp2p/p2p/protocol/identify"
 
 	ma "github.com/multiformats/go-multiaddr"
 	madns "github.com/multiformats/go-multiaddr-dns"

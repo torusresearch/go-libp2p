@@ -7,10 +7,10 @@ import (
 	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
 	swarmt "github.com/libp2p/go-libp2p-swarm/testing"
-	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
+	bhost "github.com/torusresearch/go-libp2p/p2p/host/basic"
 
 	mux "github.com/libp2p/go-libp2p-core/mux"
-	yamux "github.com/libp2p/go-libp2p-yamux"
+	yamux "github.com/torusresearch/go-libp2p-yamux"
 )
 
 func TestMuxerSimple(t *testing.T) {
